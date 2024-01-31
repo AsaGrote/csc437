@@ -1,0 +1,77 @@
+@import "./tokens.css";
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    background-color: var(--main-purple);
+    color: black;
+    font-weight: 500;
+}
+
+h2,
+h3 {
+    color: var(--main-purple);
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Roboto Serif", serif;
+    font-variant: small-caps;
+    
+    
+}
+
+.cover img {
+    width: 22vw;
+    height: 22vw;
+}
+
+.cover-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: baseline;
+    gap: 2vw 2vw;
+    padding: 2vw;
+}
+
+.profile-button {
+    position: fixed;
+    width: 2rem;
+    height: 2rem;
+    top: 0;
+    right: 0;
+    margin: 25px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+a {
+    color: var(--link-purple);
+    /* color: #73558e; */
+}
+
+button {
+    background-color: var(--main-purple);
+    border-radius: 12px;
+}
+
+svg.icon {
+    display: inline;
+    height: 2em;
+    width: 2em;
+    vertical-align: middle;
+    fill: currentColor;
+}
+
+#explore-heading {
+    background-color: aquamarine;
+}
+
+
